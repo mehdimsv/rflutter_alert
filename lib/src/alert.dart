@@ -63,9 +63,9 @@ class Alert {
   }
 
 // Will be added in next version.
-  // void dismiss() {
-  //   Navigator.pop(context);
-  // }
+   void dismiss() {
+    Navigator.pop(context);
+   }
 
   // Alert dialog content widget
   Widget _buildDialog() {
